@@ -1,0 +1,250 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* title section */
+
+
+#title {
+
+    background-color: #ff4c68;
+     color: #fff;
+}
+
+
+
+h1 {
+
+    font-family: 'Playfair Display-bold', serif;
+    font-size: 4rem;
+}
+
+
+
+.container-fluid {
+
+    padding: 5% 15%;
+
+}
+
+
+
+.navbar-brand {
+
+    font-size: 1.7rem;
+    padding-left: 20px;
+    font-family: 'Monoton', cursive;
+    
+}
+
+
+
+.nav-item {
+
+    padding-right: 20px;
+    font-size: 1.2rem;
+}
+
+
+
+.buttons {
+
+    margin: 30px 10px 10px 0px;
+    color: #fff;
+}
+
+
+
+.imgdog {
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute; 
+}
+
+
+
+/* features section */
+
+
+#features {
+
+    text-align: center;
+    padding: 7% 10%;
+    background-color: #fff;
+    line-height: 2;
+    position: relative;
+}
+
+
+
+h3 {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.fontawesome {
+
+    color: #ff4c68;
+    padding-bottom: 25px;
+
+}
+
+
+
+.fontawesome:hover {
+
+    color: #f21170;
+
+}
+
+
+
+p {
+
+    font-size: 1rem;
+
+}
+
+
+/* testimonials */
+
+
+
+#testimonials {
+
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+} 
+
+
+
+.test-img {
+
+    border-radius: 100%;
+    width: 100px;
+    margin: 50px 30px;
+}
+
+
+
+/* press */
+
+
+#press {
+
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 20px 0 60px;
+}
+
+
+
+.press-img {
+
+    width: 200px;
+}
+
+
+
+/* pricing */
+
+
+#pricing {
+
+    padding: 7% 10%;
+    text-align: center;
+}
+
+
+.row {
+
+    padding-top: 50px;
+}
+
+
+
+h2 {
+
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+
+
+.price-para {
+
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* contact section */
+
+
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.cta-head {
+
+    font-size: 3rem;
+}
+
+
+
+.cta-button {
+
+    margin: 30px 5px;
+}
+
+
+/* footer section */
+
+
+#footer {
+
+    margin: 7% 15%;
+    text-align: center;
+}
+
+
+
+.foot-icon {
+
+    margin: 30px 5px;
+}
+
+
+/* media query */
+@media (max-width: 1120px) {
+
+    .imgdog {
+        position: static;
+        transform: rotate(0);
+        padding-top: 30px;
+    }
+
+    #title {
+
+        text-align: center;
+    }
+}
+
+
+
